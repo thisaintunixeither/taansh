@@ -16,6 +16,6 @@ jobs:
     - name: cd src
       run: cd src
     - name: gcc
-      run: gcc taansh.c -o taansh
+      run: gcc ./taansh.c -o taansh
     - name: ./taansh
       run: ./taansh
