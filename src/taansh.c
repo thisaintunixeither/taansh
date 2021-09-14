@@ -9,7 +9,8 @@ int taansh(void) {
     "hello",
     "deadmilkmen",
     "cd",
-    "pwd"
+    "pwd",
+    "exit"
   }
   printf("We jumped up on the table\n");
   printf("And shouted \"ANARCHY!\"\n\n\n");
