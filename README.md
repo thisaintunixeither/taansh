@@ -8,7 +8,7 @@ gcc taansh.c -o taansh -nostartfiles
 ```sh
 ./taansh
 ```
-Todo
+## Todo
 - [x] Make basic code
 - [x] Make it work
 - [ ] Create readline lib
