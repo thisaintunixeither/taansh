@@ -3,7 +3,7 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-char builtins[8265] = { "help", "hello", "deadmilkmen", "cd", "pwd", "exit" };
+char *builtins[6] = { "help", "hello", "deadmilkmen", "cd", "pwd", "exit" };
 
 int taansh(void) {
   fork();
