@@ -13,8 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: cd src
-      run: cd src
     - name: gcc
       run: gcc ./taansh.c -o taansh
     - name: ./taansh
