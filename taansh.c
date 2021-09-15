@@ -3,15 +3,9 @@
 #include <sys/types.h>
 #include <unistd.h>
 
+char builtins[6] = { "help", "hello", "deadmilkmen", "cd", "pwd", "exit" };
+
 int taansh(void) {
-  char builtins[6] = {
-    "help",
-    "hello",
-    "deadmilkmen",
-    "cd",
-    "pwd",
-    "exit",
-  };
   fork();
   printf("We jumped up on the table\n");
   printf("And shouted \"ANARCHY!\"\n\n\n");
