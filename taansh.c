@@ -4,14 +4,14 @@
 #include <unistd.h>
 
 int taansh(void) {
-  char builtins[] = {
+  char builtins[6] = {
     "help",
     "hello",
     "deadmilkmen",
     "cd",
     "pwd",
-    "exit"
-  }
+    "exit",
+  };
   fork();
   printf("We jumped up on the table\n");
   printf("And shouted \"ANARCHY!\"\n\n\n");
