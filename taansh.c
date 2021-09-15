@@ -9,6 +9,6 @@ int taansh(void) {
   printf("We jumped up on the table\n");
   printf("And shouted \"ANARCHY!\"\n\n\n");
   printf("\t\t Welcome to TAANSH: This Ain't A Normal SHell\n");
-  printf("youcanttypeanythingyet: ");
+  printf("youcanttypeanythingyetbecauseihavetoaddreadlinefunctions: ");
   exit(EXIT_SUCCESS);
 }
