@@ -26,8 +26,8 @@ int taansh_intro(void) {
 }
 
 void taansh_rl(void) {
-  malloc(buffer);
-  if(input > buffer) {
-    realloc(buffer, input);
+  int allocbuffer = malloc(buffer);
+  if(input > allocbuffer) {
+    realloc(allocbuffer, input);
   }
 }
