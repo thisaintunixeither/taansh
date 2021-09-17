@@ -52,3 +52,7 @@ int taansh_rl(void) {
 int taansh_exit(void) {
   exit(EXIT_SUCCESS);
 }
+
+int taansh_hello(void) {
+  printf("Hello please kill me\n");
+}
