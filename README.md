@@ -19,7 +19,7 @@ And shouted "ANARCHY!"
 youcanttypeanythingyetbecauseihavetoaddreadlinefunctions:-$ 
 I feel like putting this here: $_$
 ```
-The tabs for line #5 should be 1, so that might be 2, 4, 8, idk spaces. You can't type nothing because there's no readline functions, so it can't get your wonderful input. If you get something different, open an issue or email me at gnuoveryou@gmail.com.
+The tabs for line #5 should be 1, so that might be 2, 4, 8, idk spaces. You can't type nothing because there's no readline functions, so it can't get your wonderful input. If you get something different, open an issue or email me at gnuoveryou@gmail.com, but please open an issue before emailing me, I don't check it often.
 ## Todo
 - [x] Make basic code
 - [x] Make it work
