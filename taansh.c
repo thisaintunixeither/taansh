@@ -26,11 +26,8 @@ int taansh_intro(void) {
 }
 
 void taansh_rl(void) {
-  // wip
-  /*
-  malloc(shit);
-  if(shit > othershit) {
-    realloc(shit, othershit)
+  malloc(buffer);
+  if(input > buffer) {
+    realloc(buffer, input);
   }
-  */
 }
