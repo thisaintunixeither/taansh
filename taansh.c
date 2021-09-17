@@ -3,6 +3,10 @@
 #include <sys/types.h>
 #include <unistd.h>
 
+#define RL_BUFFER 1000
+int buffer = RL_BUFFER;
+char input[];
+
 char *builtins[6] = { 
   "help",
   "hello",
@@ -12,11 +16,21 @@ char *builtins[6] = {
   "exit"
 };
 
-int taansh(void) {
+int taansh_intro(void) {
   printf("We jumped up on the table\n");
   printf("And shouted \"ANARCHY!\"\n\n\n");
   printf("\t Welcome to TAANSH: This Ain't A Normal SHell\n");
-  printf("youcanttypeanythingyetbecauseihavetoaddreadlinefunctions:-$ \n");
+  printf("you-cant-type-anything-yet-because-i-have-to-add-readline-functions:-$ \n");
   printf("I feel like putting this here: $_$");
   exit(EXIT_SUCCESS);
+}
+
+void taansh_rl(void) {
+  // wip
+  /*
+  malloc(shit);
+  if(shit > othershit) {
+    realloc(shit, othershit)
+  }
+  */
 }
