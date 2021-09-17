@@ -16,6 +16,10 @@ char *builtins[6] = {
   "exit"
 };
 
+int taansh_hello(void);
+int taansh_help(void);
+int taansh_exit(void);
+
 int taansh_intro(void) {
   printf("We jumped up on the table\n");
   printf("And shouted \"ANARCHY!\"\n\n\n");
@@ -25,7 +29,7 @@ int taansh_intro(void) {
   exit(EXIT_SUCCESS);
 }
 
-void taansh_rl(void) {
+int taansh_rl(void) {
   int allocbuffer = malloc(buffer);
   int c;
   int position = 0;
@@ -34,9 +38,7 @@ void taansh_rl(void) {
     exit(EXIT_FAILURE);
   }
   while(1) {
-    // Read a character
     c = getchar();
-    // If we hit EOF, replace it with a null character and return
     if (c == EOF || c == '\n') {
       input[position] == '\0';
       return buffer;
@@ -45,4 +47,8 @@ void taansh_rl(void) {
       input[position] = c;
     }
   }
+}
+
+int taansh_exit(void) {
+  exit(EXIT_SUCCESS);
 }
