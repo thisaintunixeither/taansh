@@ -42,7 +42,7 @@ void taansh_rl(void) {
       return buffer;
     }
     else {
-      buffer[position] = c;
+      input[position] = c;
     }
   }
 }
