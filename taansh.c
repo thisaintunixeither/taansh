@@ -27,7 +27,22 @@ int taansh_intro(void) {
 
 void taansh_rl(void) {
   int allocbuffer = malloc(buffer);
-  if(input > allocbuffer) {
-    realloc(allocbuffer, input);
+  int c;
+  int position = 0;
+  if (!buffer) {
+    perror("No buffer somehow idk\n");
+    exit(EXIT_FAILURE);
+  }
+  while(1) {
+    // Read a character
+    c = getchar();
+    // If we hit EOF, replace it with a null character and return
+    if (c == EOF || c == '\n') {
+      buffer[position] == '\0';
+      return buffer;
+    }
+    else {
+      buffer[position] = c;
+    }
   }
 }
