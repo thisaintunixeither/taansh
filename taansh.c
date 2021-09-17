@@ -38,7 +38,7 @@ void taansh_rl(void) {
     c = getchar();
     // If we hit EOF, replace it with a null character and return
     if (c == EOF || c == '\n') {
-      buffer[position] == '\0';
+      input[position] == '\0';
       return buffer;
     }
     else {
