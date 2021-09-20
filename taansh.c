@@ -25,7 +25,6 @@ int taansh_intro(void) {
   printf("And shouted \"ANARCHY!\"\n\n\n");
   printf("\t Welcome to TAANSH: This Ain't A Normal SHell\n");
   printf("you-cant-type-anything-yet-because-i-have-to-add-readline-functions:-$ \n");
-  printf("I feel like putting this here: $_$");
   exit(EXIT_SUCCESS);
 }
 
