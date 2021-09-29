@@ -39,7 +39,7 @@ int taansh_rl(void) {
   while(1) {
     c = getchar();
     if (c == EOF || c == '\n') {
-      input[position] == '\0';
+      input[position] = '\0';
       return buffer;
     }
     else {
