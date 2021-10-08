@@ -26,6 +26,7 @@ int taansh_intro(void) {
   printf("\t Welcome to TAANSH: This Ain't A Normal SHell\n");
   printf("you-cant-type-anything-yet-because-i-have-to-add-readline-functions:-$ \n");
   exit(EXIT_SUCCESS);
+  taansh_rl();
 }
 
 int taansh_rl(void) {
